@@ -1,0 +1,7 @@
+.nwaf-element-tags a {
+  cursor: pointer;
+}
+.nwaf-element-tags a.selected {
+  background: #e3504d;
+}
+/*# sourceMappingURL=default.css.map */

@@ -1,0 +1,70 @@
+.nwaf-element-rating ul {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+}
+.nwaf-element-rating ul li {
+  margin-bottom: 20px;
+}
+.nwaf-element-rating ul li a {
+  cursor: pointer;
+}
+.nwaf-element-rating ul li a.selected .checkbox i {
+  opacity: 1;
+}
+.nwaf-element-rating ul li a span {
+  display: inline-block;
+  margin: auto;
+  padding: 0;
+  line-height: 0px;
+  vertical-align: middle;
+}
+.nwaf-element-rating ul li a .checkbox {
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  border: 1px solid #cfcfcf;
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+}
+.nwaf-element-rating ul li a .checkbox i {
+  opacity: 0;
+}
+.nwaf-element-rating ul li a .text {
+  font-size: 13px;
+}
+.nwaf-element-rating ul li a .rating {
+  margin-right: 30px;
+}
+.nwaf-element-rating ul li a .rating.rate-5 i {
+  color: #f4bf4e;
+}
+.nwaf-element-rating ul li a .rating.rate-4 i {
+  color: #f4bf4e;
+}
+.nwaf-element-rating ul li a .rating.rate-4 i:last-child {
+  color: #cfcfcf;
+}
+.nwaf-element-rating ul li a .rating.rate-3 i {
+  color: #cfcfcf;
+}
+.nwaf-element-rating ul li a .rating.rate-3 i:nth-child(1),
+.nwaf-element-rating ul li a .rating.rate-3 i:nth-child(2),
+.nwaf-element-rating ul li a .rating.rate-3 i:nth-child(3) {
+  color: #f4bf4e;
+}
+.nwaf-element-rating ul li a .rating.rate-2 i {
+  color: #cfcfcf;
+}
+.nwaf-element-rating ul li a .rating.rate-2 i:nth-child(1),
+.nwaf-element-rating ul li a .rating.rate-2 i:nth-child(2) {
+  color: #f4bf4e;
+}
+.nwaf-element-rating ul li a .rating.rate-1 i {
+  color: #cfcfcf;
+}
+.nwaf-element-rating ul li a .rating.rate-1 i:nth-child(1) {
+  color: #f4bf4e;
+}
+/*# sourceMappingURL=default.css.map */

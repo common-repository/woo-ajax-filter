@@ -1,0 +1,188 @@
+.neo-wc-ajax-button,
+.settings_page_neo-wc-ajax-filter-options input[type="submit"],
+.nwaf-wrap .wrapper-inner .page-header .submit input,
+.nwaf-wrap .wrapper-inner .page-footer .submit input {
+  background: #616694;
+  box-shadow: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 3px;
+  text-shadow: none;
+  line-height: 2px;
+}
+.neo-wc-ajax-button:hover,
+.settings_page_neo-wc-ajax-filter-options input[type="submit"]:hover,
+.nwaf-wrap .wrapper-inner .page-header .submit input:hover,
+.nwaf-wrap .wrapper-inner .page-footer .submit input:hover {
+  color: #000;
+  background: #fff;
+}
+.nwaf-wrap input,
+.nwaf-wrap textarea {
+  outline: none;
+}
+.nwaf-wrap .wrapper-inner {
+  max-width: 960px;
+  margin: 60px auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.nwaf-wrap .wrapper-inner .page-header {
+  margin: auto;
+  padding: 30px;
+  background: #2B2D42;
+}
+.nwaf-wrap .wrapper-inner .page-header:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.nwaf-wrap .wrapper-inner .page-header .page-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #1a1a1a;
+  float: left;
+  color: #fff;
+  margin: auto;
+  padding: 0;
+  line-height: 39px;
+}
+.nwaf-wrap .wrapper-inner .page-header .submit {
+  float: right;
+  margin: auto;
+  padding: 0;
+}
+.nwaf-wrap .wrapper-inner .page-footer {
+  margin: auto;
+  padding: 30px;
+  background: #2B2D42;
+}
+.nwaf-wrap .wrapper-inner .page-footer:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.nwaf-wrap .wrapper-inner .page-footer .submit {
+  float: right;
+  margin: auto;
+  padding: 0;
+}
+.nwaf-wrap .wrapper-inner .page-footer .copyright {
+  float: left;
+}
+.nwaf-wrap .wrapper-inner .page-footer .copyright a {
+  font-size: 11px;
+  display: inline-block;
+  text-decoration: none;
+  color: #EDF2F4;
+  margin: 12px 10px 0px 0;
+}
+.nwaf-wrap .wrapper-inner .page-middle {
+  min-height: 300px;
+  background: #fff;
+  padding: 30px;
+}
+.nwaf-wrap .wrapper-inner .page-middle:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.nwaf-wrap .wrapper-inner .page-middle .page-left {
+  float: left;
+  width: 40%;
+}
+.nwaf-wrap .wrapper-inner .page-middle .page-right {
+  float: right;
+  width: 60%;
+}
+.nwaf-wrap .wrapper-inner .page-middle .page-right .page-right-inner {
+  padding: 0 30px;
+  border-left: 1px solid #eee;
+}
+.nwaf-wrap .wrapper-inner .page-middle .page-right .page-right-inner > .title {
+  margin: auto auto 30px;
+  text-transform: uppercase;
+}
+.nwaf-layout {
+  width: 100%;
+  padding: 30px;
+  margin: auto;
+  min-height: 300px;
+}
+.nwaf-wrap .taxonomy-block {
+  margin: 5px auto;
+  padding: 0;
+}
+.nwaf-wrap .taxonomy-block > .title {
+  padding: 10px 15px;
+  margin: auto;
+  border: 1px solid #eee;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 12px;
+}
+.nwaf-wrap .taxonomy-block > .block-options {
+  display: none;
+  background: #f2f2f2;
+  border: 1px solid #eee;
+  padding: 20px 30px;
+}
+.nwaf-wrap .taxonomy-block > .block-options .row {
+  margin: 0 auto 30px auto;
+  padding: 0;
+}
+.nwaf-wrap .taxonomy-block > .block-options .terms {
+  margin-bottom: -52px;
+}
+.nwaf-wrap .taxonomy-block > .block-options .terms .term {
+  margin: 0 -30px -1px;
+  padding: 30px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.nwaf-wrap .taxonomy-block > .block-options .terms .term:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.nwaf-wrap .taxonomy-block > .block-options .terms .term .name {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
+.nwaf-wrap .taxonomy-block > .block-options .terms .term .values {
+  width: 70%;
+  display: inline-block;
+  float: left;
+}
+.nwaf-wrap .taxonomy-block > .block-options .terms .term .values > span {
+  display: block;
+  margin: auto auto 15px;
+}
+.nwaf-wrap .taxonomy-block > .block-options .terms .term .values > span input.neo-wc-input {
+  width: 100%;
+  padding: 8px 15px;
+}
+.nwaf-wrap .taxonomy-block label.neo-wc-label {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  margin: auto auto 10px;
+  padding: 0;
+  display: block;
+}
+.neo-wc-input {
+  width: 100%;
+  padding: 8px 15px;
+}
+.neo-wc-label {
+  padding: 0;
+  margin: auto auto 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=admin.css.map */

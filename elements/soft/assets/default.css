@@ -1,0 +1,8 @@
+.nwaf-element-soft .order {
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.nwaf-element-soft .order.selected {
+  color: #f4bf4e;
+}
+/*# sourceMappingURL=default.css.map */

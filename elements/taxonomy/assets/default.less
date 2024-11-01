@@ -1,0 +1,67 @@
+.nwaf-colors {
+	a {
+		display: inline-block;
+		font-size: 13px;
+		line-height: 28px;
+	}
+}
+[class*="nwaf-term-"] {
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+	a {
+		width: 33.33%;
+		display: inline-block;
+		margin: auto auto 20px;
+		padding: 0;
+		font-size: 13px;
+		line-height: 28px;
+		float: left;
+		cursor: pointer;
+		.checkbox {
+			content: '';
+			display: inline-block;
+			width: 22px;
+			height: 22px;
+			border: 1px solid #000;
+			position: relative;
+			background: none !important;
+			margin: auto 10px auto auto;
+			.checked {
+				position: absolute;
+				opacity: 0;
+				top: 3px;
+				left: 3px;
+				content: '';
+				display: block;
+				width: 14px;
+				height: 14px;
+				line-height: 15px;
+			}
+		}
+		&.selected {
+			.checkbox {
+				.checked {
+					opacity: 1;
+				}
+			}
+		}
+		.text {
+			display: inline-block;
+			line-height: 23px;
+			vertical-align: top;
+		}
+	}
+}
+.nwaf-show-type-label {
+	a {
+		.checkbox {
+			border-color: #b7b7b7;
+			.checked {
+				line-height: 15px;
+			}
+		}
+	}
+}

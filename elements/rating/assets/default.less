@@ -1,0 +1,85 @@
+.nwaf-element-rating {
+	ul {
+		list-style: none;
+		margin: auto;
+		padding: 0;
+		li {
+			margin-bottom: 20px;
+			a {
+				cursor: pointer;
+				&.selected {
+					.checkbox {
+						i {
+							opacity: 1;
+						}
+					}
+				}
+				span {
+					display: inline-block;
+					margin: auto;
+					padding: 0;
+					line-height: 0px;
+					vertical-align: middle;
+				}
+				.checkbox {
+					width: 22px;
+					height: 22px;
+					line-height: 22px;
+					border: 1px solid #cfcfcf;
+					display: inline-block;
+					margin-right: 20px;
+					text-align: center;
+					i {
+						opacity: 0;
+					}
+				}
+				.text {
+					font-size: 13px;
+				}
+				.rating {
+					margin-right: 30px;
+					&.rate-5 {
+						i {
+							color: #f4bf4e;
+						}
+					}
+					&.rate-4 {
+						i {
+							color: #f4bf4e;
+							&:last-child {
+								color: #cfcfcf;
+							}
+						}
+					}
+					&.rate-3 {
+						i {
+							color: #cfcfcf;
+							&:nth-child(1),
+							&:nth-child(2),
+							&:nth-child(3) {
+								color: #f4bf4e;
+							}
+						}
+					}
+					&.rate-2 {
+						i {
+							color: #cfcfcf;
+							&:nth-child(1),
+							&:nth-child(2) {
+								color: #f4bf4e;
+							}
+						}
+					}
+					&.rate-1 {
+						i {
+							color: #cfcfcf;
+							&:nth-child(1) {
+								color: #f4bf4e;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

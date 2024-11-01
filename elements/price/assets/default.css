@@ -1,0 +1,7 @@
+.nwaf-element-price .price {
+  cursor: pointer;
+}
+.nwaf-element-price .price.selected {
+  color: #f4bf4e;
+}
+/*# sourceMappingURL=default.css.map */

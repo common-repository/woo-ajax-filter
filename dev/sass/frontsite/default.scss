@@ -1,0 +1,172 @@
+.woocommerce ul.products {
+	position: relative;
+}
+.nwaf-loading {
+	margin: 20px auto;
+	width: 8px;
+	height: 0px;
+	border-radius: 50%;
+	transition: all 0.3s;
+	background: #000;
+	position: relative;
+	&:before,
+	&:after {
+		content: '';
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		background: #000;
+		position: absolute;
+	}
+	&:before {
+		left: -20px;
+	}
+	&:after {
+		right: -20px;
+	}
+	&.hide-loading {
+		opacity: 0;
+		z-index: -1;
+	}
+	&.load {
+		height: 8px;
+		&:before {
+			animation: beforeloading 1s infinite;
+		}
+		&:after {
+			animation: afterloading 1s infinite;	
+		}
+	}
+}
+@keyframes beforeloading {
+  0%{ 
+    transform: translateX(20px);
+  } 
+  50% {
+  	transform: translateY(0px);
+  }
+  100%{ 
+    transform: translateX(20px);
+  } 
+}
+@keyframes afterloading {
+  0%{ 
+    transform: translateX(-20px);
+  } 
+  50% {
+  	transform: translateY(0px);
+  }
+  100%{ 
+    transform: translateX(-20px);
+  } 
+}
+.nwaf-clear-filter {
+	cursor: pointer;
+}
+.c4d-woo-ajax-filter-load-more {
+  text-align: center;
+  cursor: pointer;
+}
+.c4d-woo-ajax-filter-load-more.end {
+  display: none;
+}
+.woocommerce-pagination.loadmore {
+  display: none;
+}
+.c4d-woo-ajax-filter-load-more {
+	opacity: 0;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	color: rgba(#fff, 0);
+	background: #fff;
+	box-shadow: 0px 0px 10px rgba(#000, 0.15);
+	margin: auto auto 100px;
+	position: relative;
+	animation: all 0.3s;
+	.text {
+		display: none;
+	}
+	.icon {
+		color: #ccc;
+		line-height: 31px;
+		animation: all 0.3s;
+	}
+	&:after, &:before {
+		content: '';
+		display: block;
+		width: 9px;
+		height: 9px;
+		border-radius: 50%;
+		background: #000;
+		position: absolute;
+		opacity: 0;
+		transition: all 0.2s ease-out;
+		transform: scale(0);
+		z-index: -1;
+	}
+	&:after {
+		top: 10px;
+		right: 0px;
+		transform-origin: -30px 5px;
+	}
+	&:before {
+		top: 10px;
+		left: 0px;
+		transform-origin: 40px 5px;
+	}
+	&.loadmore {
+		opacity: 1;
+	}
+	&.loading {
+		opacity: 1;
+		background: none;
+		&:after, &:before {
+			opacity: 1;
+			transform: scale(1);
+		}
+		&:after {
+			right: -25px;
+			animation: rotate 1.5s linear infinite 0.3s;
+		}
+		&:before {
+			left: -25px;
+			animation: rotateRev 3s linear infinite 0.3s;
+		}
+	}
+}
+@keyframes rotateRev {
+  0%{ 
+    transform: rotate(0deg);
+  } 
+  50% { 
+    transform: rotate(-180deg);
+  }
+  100% {
+  	transform: rotate(-360deg);	
+  }
+}
+@keyframes rotate {
+  0%{ 
+    transform: rotate(0deg);
+  } 
+  50% { 
+    transform: rotate(180deg);
+  }
+  100% {
+  	transform: rotate(360deg);	
+  }
+}
+li.product.add-new-item {
+	animation: newitem 0.4s linear ;
+}
+@keyframes newitem {
+  0%{ 
+    opacity: 0.1;
+    transform: translateY(10px);
+  } 
+  100% {
+  	opacity: 1;
+  	transform: translateY(0px);
+  }
+}
